@@ -1,0 +1,102 @@
+
+.bar a{
+    text-decoration: none;
+    color: white;
+}
+.bar ul{
+    list-style: none;
+}
+.bar h1{
+    color: white;
+    font-size: 64px;
+}
+.bar{
+    
+    background: linear-gradient(to right, #159957,#155799);
+    height: 100%;
+    width: 100%;
+}
+
+.socials{
+    max-width: 8%;
+    
+}
+.socials img{
+   width: 100%;
+}
+.socials img{
+    display: inline;
+}
+body{
+    display: flex;
+}
+header ul{
+    display: flex;
+}
+.main{
+ text-align: center;
+ background: linear-gradient(to right, #159957,#155799);
+width: 100%;
+}
+.main h1{
+    margin: 0 auto;
+    text-align: cen;
+}
+.socials{
+    display: flex;
+    
+}
+.socials li{
+    padding: 2px;
+
+}
+.side ul{
+    flex-direction:row;
+    
+}
+.side li{
+    padding: 10px;
+}
+.content{
+    display: flex;
+    
+}
+.Society{
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    max-width: 100%;
+}
+.Society li{
+    border: solid white 2px;
+    margin: 7px;
+    padding: 6px;
+}
+li,h1,h2,h3,a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+.owasp{
+    width: 70%;
+     
+    
+    }
+.mudra{
+    width: 50%;
+}
+.virsa{
+    width: 35%;
+}
+p{
+    display: flex;
+ align-content: baseline;
+}
+.row{
+    background: linear-gradient(to right, #159957,#155799);
+    width: 100%;
+    height:100%;
+}
