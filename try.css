@@ -1,0 +1,42 @@
+.main{
+    background: grey;
+    float: left;
+}
+ul{
+    list-style: none;
+    
+    
+    padding: 0%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0% 15px;
+    font-weight: bold;
+    
+}
+li{
+    line-height: 40px;
+    float: left;
+}
+.menu{
+    display: inline;
+}
+.sub-menu{
+   position: absolute;
+   
+   background: burlywood;
+   display: none;
+   
+}
+.sub-deep-menu{
+    position: absolute;
+    background: burlywood;
+    display: none;
+}
+.main .menu li:hover>ul{
+    display: block;
+}
